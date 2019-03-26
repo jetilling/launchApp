@@ -1,0 +1,1 @@
+CREATE DATABASE launchapp_test;
