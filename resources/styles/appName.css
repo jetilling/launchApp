@@ -1,0 +1,12 @@
+.appName-question-block-1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.appName-question-block-2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 15px;
+}
