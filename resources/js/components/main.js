@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import AppNameContainer from './1_appName/appName';
+import AppNameContainer from './2_appName/appName';
 
 const Main = ({currentStep, name}) =>  {
 
