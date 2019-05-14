@@ -1,3 +1,5 @@
 {
+    "/js/buildBasics.js": "/js/buildBasics.js",
+    "/js/buildConfirm.js": "/js/buildConfirm.js",
     "/js/index.js": "/js/index.js"
 }

@@ -1,0 +1,98 @@
+body {
+  background: #f2f2f2;
+  /* background: #403f3e; */
+  overflow-x: hidden; 
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  width: 405px;
+  height: 605px;
+  /* background: rgb(131,58,180);
+  background: linear-gradient(212deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 63%, rgba(252,176,69,1) 100%);  */
+  background-color: #c660fc;
+  background-image: linear-gradient(25deg, #c660fc 0%, #08AEEA 33%, #2AF598 66%, #f0f68c 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-card {
+  width: 392px;
+  height: 592px;
+  /* background: linear-gradient(0deg, #e3ffe7 0%, #d9e7ff 100%); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+}
+
+.innermost-card {
+  background: #f2f2f2;
+  width: 380px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Lato', sans-serif;
+}
+
+.enter-code-form {
+  width: 300px;
+  font-family: 'Lato', sans-serif;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-item-input {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+/* .submit-btn-container {
+  width: 128px;
+  height: 38px;
+  background: rgb(198,96,252);
+  background: linear-gradient(0deg, rgba(198,96,252,1) 0%, rgba(8,174,234,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.submit-btn {
+  width: 125px;
+  height: 35px;
+  border: 1px solid;
+  font-size: 14px;
+  transition: 0.4s;
+  /* color: #f2f2f2; */
+}
+
+.submit-btn:hover {
+  background: #E5E5E5;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato');

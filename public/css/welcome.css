@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.title {
+  font-family: 'Lato', sans-serif;
+  font-size: 60px;
+}
+
+.tagline {
+  font-family: 'Lato', sans-serif;
+  /* font-size: 40px; */
+}
+
+.get-started-btn {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  font-size: 30px;
+  height: 150px;
+  width: 300px;
+  background: lightblue;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 2px;
+}
+
+
+/* color theme: https://www.colorcombos.com/color-schemes/275/ColorCombo275.html */

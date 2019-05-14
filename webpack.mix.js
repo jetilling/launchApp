@@ -12,3 +12,5 @@ const mix = require('laravel-mix');
  */
 
 mix.react('resources/js/index.js', 'public/js')
+    .react('resources/js/buildBasics/buildBasics.js', 'public/js')
+    .react('resources/js/buildConfirm/buildConfirm.js', 'public/js')

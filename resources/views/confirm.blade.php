@@ -7,15 +7,11 @@
         <title>Launch</title>
     </head>
     <body>
-        <div>
-        
-        <div className="title-container">
-            <h1 class="title">Launch</h1>
-        </div>
-
-        <p class="tagline">Start building that new app in minutes not days</p>
-
-        <a href="{{ url('/enter-code') }}" class="get-started-btn">Get Started!</a>
-        </div>
+      <div id="root"></div>
+      <script>
+        window.csrfToken = "{{ csrf_token() }}"
+        window.projectDetails = {!! $project !!};
+      </script>
+      <script src="{{ mix('js/buildConfirm.js') }}"></script>
     </body>
 </html>

@@ -15,6 +15,26 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/build', function() {
-    return view('build');
+Route::get('/enter-code', 'EntranceCodeController@index')->name('login');
+Route::post('/enter-code', 'EntranceCodeController@verifyCode');
+
+Route::prefix('build')->group(function () {
+
+    Route::get('/basics', 'BasicsController@index');
+    Route::post('/basics', 'BasicsController@store');
+    // Route::get('/authentication', '');
+    // Route::get('/user-profiles', '');
+    // Route::get('/dashboard', '');
+    // Route::get('/users', '');
+    // Route::get('/pages', '');
+    // Route::get('/monetization', '');
+    // Route::get('/uploader', '');
+    // Route::get('/third-party-services', '');
+
+    Route::get('/confirm', 'BuildConfirmationController@index');
+    Route::post('/confirm', 'BuildConfirmationController@confirm');
+
+    Route::get('/complete', 'BuildCompleteController@index');
+
 });
+
